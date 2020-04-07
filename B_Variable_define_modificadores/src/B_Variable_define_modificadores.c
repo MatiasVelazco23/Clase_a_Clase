@@ -16,7 +16,7 @@ int main(void) {
 	printf(MENSAJE); /* prints !!!Hello World!!! */
 
 	//TIPO NOMBRE= VALOR;
-	int i;  //enteros
+	int i;  //enteros  //
 	i=27;
 	float pi; //flotantes
 	pi=3.14;

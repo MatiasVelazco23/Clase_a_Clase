@@ -1321,3 +1321,6 @@ java.io.FileNotFoundException: /home/matias/eclipse-workspaceMatias/E_EjercicioM
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1017)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1220)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-07 17:22:37.001
+!MESSAGE Indexed 'A_Ejercicio5Classroom_Clase2' (1 sources, 53 headers) in 0,677 sec: 1.045 declarations; 1.959 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
