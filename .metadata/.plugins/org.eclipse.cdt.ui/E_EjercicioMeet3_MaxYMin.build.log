@@ -1,0 +1,24 @@
+14:11:01 **** Build of configuration Debug for project E_EjercicioMeet3_MaxYMin ****
+make all 
+Building file: ../src/E_EjercicioMeet3_MaxYMin.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet3_MaxYMin.d" -MT"src/E_EjercicioMeet3_MaxYMin.o" -o "src/E_EjercicioMeet3_MaxYMin.o" "../src/E_EjercicioMeet3_MaxYMin.c"
+../src/E_EjercicioMeet3_MaxYMin.c: In function ‘main’:
+../src/E_EjercicioMeet3_MaxYMin.c:18:2: warning: implicit declaration of function ‘setbuff’; did you mean ‘setbuf’? [-Wimplicit-function-declaration]
+  setbuff(stdout,NULL);
+  ^~~~~~~
+  setbuf
+Finished building: ../src/E_EjercicioMeet3_MaxYMin.c
+ 
+Building target: E_EjercicioMeet3_MaxYMin
+Invoking: GCC C Linker
+gcc  -o "E_EjercicioMeet3_MaxYMin"  ./src/E_EjercicioMeet3_MaxYMin.o   
+./src/E_EjercicioMeet3_MaxYMin.o: En la función `main':
+/home/matias/eclipse-workspaceMatias/E_EjercicioMeet3_MaxYMin/Debug/../src/E_EjercicioMeet3_MaxYMin.c:18: referencia a `setbuff' sin definir
+collect2: error: ld returned 1 exit status
+makefile:30: recipe for target 'E_EjercicioMeet3_MaxYMin' failed
+make: *** [E_EjercicioMeet3_MaxYMin] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+14:11:02 Build Failed. 3 errors, 1 warnings. (took 544ms)
+

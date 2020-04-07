@@ -1,0 +1,15 @@
+00:50:59 **** Incremental Build of configuration Debug for project B_Variable_define_modificadores ****
+make all 
+Building file: ../src/B_Variable_define_modificadores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/B_Variable_define_modificadores.d" -MT"src/B_Variable_define_modificadores.o" -o "src/B_Variable_define_modificadores.o" "../src/B_Variable_define_modificadores.c"
+Finished building: ../src/B_Variable_define_modificadores.c
+ 
+Building target: B_Variable_define_modificadores
+Invoking: GCC C Linker
+gcc  -o "B_Variable_define_modificadores"  ./src/B_Variable_define_modificadores.o   
+Finished building target: B_Variable_define_modificadores
+ 
+
+00:51:00 Build Finished. 0 errors, 0 warnings. (took 404ms)
+

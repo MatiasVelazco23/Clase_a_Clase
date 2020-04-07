@@ -1,0 +1,15 @@
+02:14:41 **** Incremental Build of configuration Debug for project EjercicioMeet1 ****
+make all 
+Building file: ../src/EjercicioMeet1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioMeet1.d" -MT"src/EjercicioMeet1.o" -o "src/EjercicioMeet1.o" "../src/EjercicioMeet1.c"
+Finished building: ../src/EjercicioMeet1.c
+ 
+Building target: EjercicioMeet1
+Invoking: GCC C Linker
+gcc  -o "EjercicioMeet1"  ./src/EjercicioMeet1.o   
+Finished building target: EjercicioMeet1
+ 
+
+02:14:42 Build Finished. 0 errors, 0 warnings. (took 407ms)
+

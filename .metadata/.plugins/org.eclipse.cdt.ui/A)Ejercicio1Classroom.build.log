@@ -1,0 +1,12 @@
+21:33:56 **** Incremental Build of configuration Debug for project A)Ejercicio1Classroom ****
+make all 
+Building target: A)Ejercicio1Classroom
+Invoking: GCC C Linker
+gcc  -o "A)Ejercicio1Classroom"  ./src/A)Ejercicio1Classroom.o   
+/bin/sh: 1: Syntax error: ")" unexpected
+makefile:30: recipe for target 'A)Ejercicio1Classroom' failed
+make: *** [A)Ejercicio1Classroom] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+
+21:33:56 Build Failed. 2 errors, 0 warnings. (took 197ms)
+

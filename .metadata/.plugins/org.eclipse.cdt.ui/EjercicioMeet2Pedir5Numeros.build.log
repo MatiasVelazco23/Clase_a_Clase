@@ -1,0 +1,19 @@
+02:22:29 **** Build of configuration Debug for project EjercicioMeet2Pedir5Numeros ****
+make all 
+Building file: ../src/EjercicioMeet2Pedir5Numeros.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioMeet2Pedir5Numeros.d" -MT"src/EjercicioMeet2Pedir5Numeros.o" -o "src/EjercicioMeet2Pedir5Numeros.o" "../src/EjercicioMeet2Pedir5Numeros.c"
+../src/EjercicioMeet2Pedir5Numeros.c: In function ‘main’:
+../src/EjercicioMeet2Pedir5Numeros.c:24:22: error: ‘i’ undeclared (first use in this function)
+  promedio=acumulador/i;
+                      ^
+../src/EjercicioMeet2Pedir5Numeros.c:24:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/EjercicioMeet2Pedir5Numeros.c:17:6: warning: variable ‘promedio’ set but not used [-Wunused-but-set-variable]
+  int promedio;
+      ^~~~~~~~
+src/subdir.mk:18: recipe for target 'src/EjercicioMeet2Pedir5Numeros.o' failed
+make: *** [src/EjercicioMeet2Pedir5Numeros.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+02:22:30 Build Failed. 3 errors, 1 warnings. (took 1s.430ms)
+
