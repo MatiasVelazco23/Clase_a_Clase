@@ -1,220 +1,171 @@
-14:26:14 **** Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
+17:29:24 **** Build of configuration Debug for project F_Punteros ****
 make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
+Building file: ../src/F_Punteros.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-Finished building: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_Punteros.d" -MT"src/F_Punteros.o" -o "src/F_Punteros.o" "../src/F_Punteros.c"
+../src/F_Punteros.c: In function ‘main’:
+../src/F_Punteros.c:20:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
+                           ~^
+                           %ld
+../src/F_Punteros.c:21:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%d", sizeof(o));
+                           ~^
+                           %ld
+../src/F_Punteros.c:22:28: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%f", sizeof(f));
+                           ~^
+                           %ld
+../src/F_Punteros.c:17:6: warning: unused variable ‘c’ [-Wunused-variable]
+  int c;
+      ^
+../src/F_Punteros.c:16:6: warning: unused variable ‘b’ [-Wunused-variable]
+  int b;
+      ^
+Finished building: ../src/F_Punteros.c
  
-Building target: E_EjercicioMeet4NumHastaQueElUserQuiera
+Building target: F_Punteros
 Invoking: GCC C Linker
-gcc  -o "E_EjercicioMeet4NumHastaQueElUserQuiera"  ./src/E_EjercicioMeet4NumHastaQueElUserQuiera.o   
-Finished building target: E_EjercicioMeet4NumHastaQueElUserQuiera
+gcc  -o "F_Punteros"  ./src/F_Punteros.o   
+Finished building target: F_Punteros
  
-14:26:16 **** Incremental Build of configuration Debug for project E_EjercicioMeet3_MaxMin ****
-make all 
-Building file: ../src/E_EjercicioMeet3_MaxMin.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet3_MaxMin.d" -MT"src/E_EjercicioMeet3_MaxMin.o" -o "src/E_EjercicioMeet3_MaxMin.o" "../src/E_EjercicioMeet3_MaxMin.c"
-Finished building: ../src/E_EjercicioMeet3_MaxMin.c
- 
-Building target: E_EjercicioMeet3_MaxMin
-Invoking: GCC C Linker
-gcc  -o "E_EjercicioMeet3_MaxMin"  ./src/E_EjercicioMeet3_MaxMin.o   
-Finished building target: E_EjercicioMeet3_MaxMin
- 
-14:26:23 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
-make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c: In function ‘main’:
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:24:2: error: expected ‘,’ or ‘;’ before ‘do’
-  do{
-  ^~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:21:6: warning: unused variable ‘flag’ [-Wunused-variable]
-src/subdir.mk:18: recipe for target 'src/E_EjercicioMeet4NumHastaQueElUserQuiera.o' failed
-  int flag=TRUE
-      ^~~~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:20:6: warning: unused variable ‘bufferInt’ [-Wunused-variable]
-  int bufferInt;
-      ^~~~~~~~~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:19:6: warning: unused variable ‘minimo’ [-Wunused-variable]
-  int minimo;
-      ^~~~~~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:18:6: warning: unused variable ‘maximo’ [-Wunused-variable]
-  int maximo;
-      ^~~~~~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c: At top level:
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:44:3: error: expected identifier or ‘(’ before ‘while’
-  }while(bufferInt !="888");   //while(TRUE)
-   ^~~~~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:45:2: error: expected identifier or ‘(’ before ‘return’
-  return EXIT_SUCCESS;
-  ^~~~~~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:46:1: error: expected identifier or ‘(’ before ‘}’ token
- }
- ^
-make: *** [src/E_EjercicioMeet4NumHastaQueElUserQuiera.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-14:26:45 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
-make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c: In function ‘main’:
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:26:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
-     scanf("%d",bufferInt);
-            ~^
-src/subdir.mk:18: recipe for target 'src/E_EjercicioMeet4NumHastaQueElUserQuiera.o' failed
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:44:2: error: expected ‘while’ before ‘}’ token
-  }while(bufferInt !="888");   //while(TRUE)
-  ^
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:44:19: warning: comparison between pointer and integer
-  }while(bufferInt !="888");   //while(TRUE)
-                   ^~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:44:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
-make: *** [src/E_EjercicioMeet4NumHastaQueElUserQuiera.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-14:29:12 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
-make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c: In function ‘main’:
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:45:2: error: expected ‘while’ before ‘}’ token
-  }while("888"!=bufferInt);   //while(TRUE)
-  ^
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:45:14: warning: comparison between pointer and integer
-  }while("888"!=bufferInt);   //while(TRUE)
-              ^~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:45:14: warning: comparison with string literal results in unspecified behavior [-Waddress]
-make: *** [src/E_EjercicioMeet4NumHastaQueElUserQuiera.o] Error 1
-src/subdir.mk:18: recipe for target 'src/E_EjercicioMeet4NumHastaQueElUserQuiera.o' failed
-"make all" terminated with exit code 2. Build might be incomplete.
-14:29:39 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
-make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c: In function ‘main’:
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:45:2: error: expected ‘while’ before ‘}’ token
-  }while("888"!==bufferInt);   //while(TRUE)
-  ^
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:45:16: error: expected expression before ‘=’ token
-  }while("888"!==bufferInt);   //while(TRUE)
-                ^
-make: *** [src/E_EjercicioMeet4NumHastaQueElUserQuiera.o] Error 1
-src/subdir.mk:18: recipe for target 'src/E_EjercicioMeet4NumHastaQueElUserQuiera.o' failed
-"make all" terminated with exit code 2. Build might be incomplete.
-14:29:48 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
-make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c: In function ‘main’:
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:45:2: error: expected ‘while’ before ‘}’ token
-  }while("888"!=bufferInt);   //while(TRUE)
-  ^
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:45:14: warning: comparison between pointer and integer
-  }while("888"!=bufferInt);   //while(TRUE)
-              ^~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:45:14: warning: comparison with string literal results in unspecified behavior [-Waddress]
-make: *** [src/E_EjercicioMeet4NumHastaQueElUserQuiera.o] Error 1
-src/subdir.mk:18: recipe for target 'src/E_EjercicioMeet4NumHastaQueElUserQuiera.o' failed
-"make all" terminated with exit code 2. Build might be incomplete.
-14:30:57 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
-make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c: In function ‘main’:
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:44:18: warning: comparison between pointer and integer
-      }while("888"!=bufferInt);   //while(TRUE)
-                  ^~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:44:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
-Finished building: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
- 
-Building target: E_EjercicioMeet4NumHastaQueElUserQuiera
-Invoking: GCC C Linker
-gcc  -o "E_EjercicioMeet4NumHastaQueElUserQuiera"  ./src/E_EjercicioMeet4NumHastaQueElUserQuiera.o   
-Finished building target: E_EjercicioMeet4NumHastaQueElUserQuiera
- 
-14:31:11 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
+17:30:15 **** Incremental Build of configuration Debug for project E_EjercicioMeet5FuncionSumar ****
 make all 
 make: No se hace nada para 'all'.
-14:32:17 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
+17:30:45 **** Incremental Build of configuration Debug for project F_Punteros ****
 make all 
 make: No se hace nada para 'all'.
-14:32:33 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
+17:31:39 **** Incremental Build of configuration Debug for project F_Punteros ****
 make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
+Building file: ../src/F_Punteros.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c: In function ‘main’:
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:44:18: warning: comparison between pointer and integer
-      }while("888"==bufferInt);   //while(TRUE)
-                  ^~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:44:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
-Finished building: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
- 
-Building target: E_EjercicioMeet4NumHastaQueElUserQuiera
-Invoking: GCC C Linker
-gcc  -o "E_EjercicioMeet4NumHastaQueElUserQuiera"  ./src/E_EjercicioMeet4NumHastaQueElUserQuiera.o   
-Finished building target: E_EjercicioMeet4NumHastaQueElUserQuiera
- 
-14:32:46 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_Punteros.d" -MT"src/F_Punteros.o" -o "src/F_Punteros.o" "../src/F_Punteros.c"
+../src/F_Punteros.c: In function ‘main’:
+../src/F_Punteros.c:20:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
+                           ~^
+                           %ld
+../src/F_Punteros.c:21:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%d", sizeof(o));
+                           ~^
+                           %ld
+../src/F_Punteros.c:22:28: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%f", sizeof(f));
+                           ~^
+                           %ld
+../src/F_Punteros.c:23:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+src/subdir.mk:18: recipe for target 'src/F_Punteros.o' failed
+  printf("La direccion de a es %d", &a));
+                               ~^   ~~
+                               %ls
+../src/F_Punteros.c:23:39: error: expected ‘;’ before ‘)’ token
+  printf("La direccion de a es %d", &a));
+                                       ^
+../src/F_Punteros.c:23:39: error: expected statement before ‘)’ token
+../src/F_Punteros.c:17:6: warning: unused variable ‘c’ [-Wunused-variable]
+  int c;
+      ^
+../src/F_Punteros.c:16:6: warning: unused variable ‘b’ [-Wunused-variable]
+  int b;
+      ^
+make: *** [src/F_Punteros.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:31:55 **** Incremental Build of configuration Debug for project F_Punteros ****
 make all 
-make: No se hace nada para 'all'.
-14:33:04 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
-make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
+Building file: ../src/F_Punteros.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c: In function ‘main’:
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:44:18: warning: comparison between pointer and integer
-      }while("888"!=bufferInt);   //while(TRUE)
-                  ^~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:44:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
-Finished building: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_Punteros.d" -MT"src/F_Punteros.o" -o "src/F_Punteros.o" "../src/F_Punteros.c"
+../src/F_Punteros.c: In function ‘main’:
+../src/F_Punteros.c:20:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
+                           ~^
+                           %ld
+../src/F_Punteros.c:21:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%d", sizeof(o));
+                           ~^
+                           %ld
+../src/F_Punteros.c:22:28: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%f", sizeof(f));
+                           ~^
+                           %ld
+../src/F_Punteros.c:23:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+  printf("La direccion de a es %d", &a);
+                               ~^   ~~
+                               %ls
+../src/F_Punteros.c:17:6: warning: unused variable ‘c’ [-Wunused-variable]
+  int c;
+      ^
+../src/F_Punteros.c:16:6: warning: unused variable ‘b’ [-Wunused-variable]
+  int b;
+      ^
+Finished building: ../src/F_Punteros.c
  
-Building target: E_EjercicioMeet4NumHastaQueElUserQuiera
+Building target: F_Punteros
 Invoking: GCC C Linker
-gcc  -o "E_EjercicioMeet4NumHastaQueElUserQuiera"  ./src/E_EjercicioMeet4NumHastaQueElUserQuiera.o   
-Finished building target: E_EjercicioMeet4NumHastaQueElUserQuiera
+gcc  -o "F_Punteros"  ./src/F_Punteros.o   
+Finished building target: F_Punteros
  
-14:33:36 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
+17:32:13 **** Incremental Build of configuration Debug for project F_Punteros ****
 make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
+Building file: ../src/F_Punteros.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c: In function ‘main’:
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:34:20: warning: comparison between pointer and integer
-        if(bufferInt=="888"){
-                    ^~
-../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c:34:20: warning: comparison with string literal results in unspecified behavior [-Waddress]
-Finished building: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_Punteros.d" -MT"src/F_Punteros.o" -o "src/F_Punteros.o" "../src/F_Punteros.c"
+../src/F_Punteros.c: In function ‘main’:
+../src/F_Punteros.c:20:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
+                           ~^
+                           %ld
+../src/F_Punteros.c:21:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%d", sizeof(o));
+                           ~^
+                           %ld
+../src/F_Punteros.c:22:28: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%f", sizeof(f));
+                           ~^
+                           %ld
+../src/F_Punteros.c:23:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+  printf("La direccion de a es %d", &a);
+                               ~^   ~~
+                               %ls
+../src/F_Punteros.c:24:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+  printf("La direccion de a es %d", &b);
+                               ~^   ~~
+                               %ls
+../src/F_Punteros.c:17:6: warning: unused variable ‘c’ [-Wunused-variable]
+  int c;
+      ^
+Finished building: ../src/F_Punteros.c
  
-Building target: E_EjercicioMeet4NumHastaQueElUserQuiera
+Building target: F_Punteros
 Invoking: GCC C Linker
-gcc  -o "E_EjercicioMeet4NumHastaQueElUserQuiera"  ./src/E_EjercicioMeet4NumHastaQueElUserQuiera.o   
-Finished building target: E_EjercicioMeet4NumHastaQueElUserQuiera
+gcc  -o "F_Punteros"  ./src/F_Punteros.o   
+Finished building target: F_Punteros
  
-14:34:18 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
+17:46:58 **** Incremental Build of configuration Debug for project F_Punteros ****
 make all 
-Building file: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
+Building file: ../src/F_Punteros.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet4NumHastaQueElUserQuiera.d" -MT"src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" -o "src/E_EjercicioMeet4NumHastaQueElUserQuiera.o" "../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c"
-Finished building: ../src/E_EjercicioMeet4NumHastaQueElUserQuiera.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_Punteros.d" -MT"src/F_Punteros.o" -o "src/F_Punteros.o" "../src/F_Punteros.c"
+../src/F_Punteros.c: In function ‘main’:
+../src/F_Punteros.c:20:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
+                           ~^
+                           %ld
+../src/F_Punteros.c:21:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%d", sizeof(o));
+                           ~^
+                           %ld
+../src/F_Punteros.c:22:28: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  printf("El size de A es :%f", sizeof(f));
+                           ~^
+                           %ld
+../src/F_Punteros.c:17:6: warning: unused variable ‘c’ [-Wunused-variable]
+  int c;
+      ^
+Finished building: ../src/F_Punteros.c
  
-Building target: E_EjercicioMeet4NumHastaQueElUserQuiera
+Building target: F_Punteros
 Invoking: GCC C Linker
-gcc  -o "E_EjercicioMeet4NumHastaQueElUserQuiera"  ./src/E_EjercicioMeet4NumHastaQueElUserQuiera.o   
-Finished building target: E_EjercicioMeet4NumHastaQueElUserQuiera
+gcc  -o "F_Punteros"  ./src/F_Punteros.o   
+Finished building target: F_Punteros
  
-14:34:31 **** Incremental Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
-make all 
-make: No se hace nada para 'all'.
-
-**** Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
-
-Nothing to build for project E_EjercicioMeet4NumHastaQueElUserQuiera

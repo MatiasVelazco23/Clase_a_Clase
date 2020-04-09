@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : E_EjercicioMeet3_MaxYMin.c
+ Name        : F_Usar_PunteroParaFuncDividir.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
