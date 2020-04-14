@@ -1,6 +1,6 @@
-14:13:29 **** Incremental Build of configuration Debug for project E_EjercicioMeet2_Promedio ****
+23:50:23 **** Build of configuration Debug for project E_EjercicioMeet2_Promedio ****
 make all 
 make: No se hace nada para 'all'.
 
-14:13:30 Build Finished. 0 errors, 0 warnings. (took 142ms)
+23:50:23 Build Finished. 0 errors, 0 warnings. (took 205ms)
 

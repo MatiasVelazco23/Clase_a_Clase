@@ -1,4 +1,6 @@
+23:50:24 **** Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
+make all 
+make: No se hace nada para 'all'.
 
-**** Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
+23:50:24 Build Finished. 0 errors, 0 warnings. (took 211ms)
 
-Nothing to build for project E_EjercicioMeet4NumHastaQueElUserQuiera

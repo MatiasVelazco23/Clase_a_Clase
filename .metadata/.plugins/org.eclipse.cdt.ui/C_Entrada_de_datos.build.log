@@ -1,15 +1,6 @@
-02:11:12 **** Incremental Build of configuration Debug for project C_Entrada_de_datos ****
+23:50:22 **** Build of configuration Debug for project C_Entrada_de_datos ****
 make all 
-Building file: ../src/C_Entrada_de_datos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/C_Entrada_de_datos.d" -MT"src/C_Entrada_de_datos.o" -o "src/C_Entrada_de_datos.o" "../src/C_Entrada_de_datos.c"
-Finished building: ../src/C_Entrada_de_datos.c
- 
-Building target: C_Entrada_de_datos
-Invoking: GCC C Linker
-gcc  -o "C_Entrada_de_datos"  ./src/C_Entrada_de_datos.o   
-Finished building target: C_Entrada_de_datos
- 
+make: No se hace nada para 'all'.
 
-02:11:13 Build Finished. 0 errors, 0 warnings. (took 406ms)
+23:50:22 Build Finished. 0 errors, 0 warnings. (took 201ms)
 

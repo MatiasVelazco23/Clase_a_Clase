@@ -1,6 +1,6 @@
-02:34:54 **** Incremental Build of configuration Debug for project D_EjercicioMeet1 ****
+23:50:22 **** Build of configuration Debug for project D_EjercicioMeet1 ****
 make all 
 make: No se hace nada para 'all'.
 
-02:34:55 Build Finished. 0 errors, 0 warnings. (took 207ms)
+23:50:23 Build Finished. 0 errors, 0 warnings. (took 204ms)
 

@@ -12,17 +12,16 @@
 #include <stdlib.h>
 
 int main(void) {
-	int a;
+	long unsigned int a;
 	int b;
-	int c;
 	char o;
 	float f;
-	int direccion
+	int direccion;
 
 	printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
 	printf("El size de A es :%d", sizeof(o));
 	printf("El size de A es :%f", sizeof(f));
-	direccion= &a
+	direccion= &a;
 	printf("La direccion de a es %p", &direccion);   	//%d muestra resultado decimal %p resultado hexa//printf("La direccion de a es %d", &a);//printf("La direccion de a es %d", &b);
 	printf("La direccion de a es %p", &b);
 

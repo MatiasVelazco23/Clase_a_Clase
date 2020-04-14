@@ -20,7 +20,6 @@ int main(void) {    //
 	int numero2;// local de main
 	int suma;
 
-
 	//resultado= sumar(4,78);
 
 	//entra

@@ -1,4 +1,4 @@
-14:26:16 **** Incremental Build of configuration Debug for project E_EjercicioMeet3_MaxMin ****
+23:50:24 **** Build of configuration Debug for project E_EjercicioMeet3_MaxMin ****
 make all 
 Building file: ../src/E_EjercicioMeet3_MaxMin.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "E_EjercicioMeet3_MaxMin"  ./src/E_EjercicioMeet3_MaxMin.o
 Finished building target: E_EjercicioMeet3_MaxMin
  
 
-14:26:16 Build Finished. 0 errors, 0 warnings. (took 404ms)
+23:50:24 Build Finished. 0 errors, 0 warnings. (took 467ms)
 

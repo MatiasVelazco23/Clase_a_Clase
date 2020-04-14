@@ -1,171 +1,100 @@
-17:29:24 **** Build of configuration Debug for project F_Punteros ****
+23:47:47 **** Incremental Build of configuration Debug for project F_funcionParaObtenerUnNumero ****
 make all 
-Building file: ../src/F_Punteros.c
+Building file: ../src/F_funcionParaObtenerUnNumero.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_Punteros.d" -MT"src/F_Punteros.o" -o "src/F_Punteros.o" "../src/F_Punteros.c"
-../src/F_Punteros.c: In function ‘main’:
-../src/F_Punteros.c:20:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
-                           ~^
-                           %ld
-../src/F_Punteros.c:21:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%d", sizeof(o));
-                           ~^
-                           %ld
-../src/F_Punteros.c:22:28: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%f", sizeof(f));
-                           ~^
-                           %ld
-../src/F_Punteros.c:17:6: warning: unused variable ‘c’ [-Wunused-variable]
-  int c;
-      ^
-../src/F_Punteros.c:16:6: warning: unused variable ‘b’ [-Wunused-variable]
-  int b;
-      ^
-Finished building: ../src/F_Punteros.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_funcionParaObtenerUnNumero.d" -MT"src/F_funcionParaObtenerUnNumero.o" -o "src/F_funcionParaObtenerUnNumero.o" "../src/F_funcionParaObtenerUnNumero.c"
+Finished building: ../src/F_funcionParaObtenerUnNumero.c
  
-Building target: F_Punteros
+Building target: F_funcionParaObtenerUnNumero
 Invoking: GCC C Linker
-gcc  -o "F_Punteros"  ./src/F_Punteros.o   
-Finished building target: F_Punteros
+gcc  -o "F_funcionParaObtenerUnNumero"  ./src/F_funcionParaObtenerUnNumero.o ./src/utn.o   
+Finished building target: F_funcionParaObtenerUnNumero
  
-17:30:15 **** Incremental Build of configuration Debug for project E_EjercicioMeet5FuncionSumar ****
+23:47:58 **** Incremental Build of configuration Debug for project F_funcionParaObtenerUnNumero ****
 make all 
 make: No se hace nada para 'all'.
-17:30:45 **** Incremental Build of configuration Debug for project F_Punteros ****
+23:50:19 **** Build of configuration Debug for project A_Ejercicio1Classroom ****
 make all 
 make: No se hace nada para 'all'.
-17:31:39 **** Incremental Build of configuration Debug for project F_Punteros ****
+23:50:19 **** Build of configuration Debug for project A_Ejercicio2Classroom ****
 make all 
-Building file: ../src/F_Punteros.c
+Building file: ../src/A_Ejercicio2Classroom.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_Punteros.d" -MT"src/F_Punteros.o" -o "src/F_Punteros.o" "../src/F_Punteros.c"
-../src/F_Punteros.c: In function ‘main’:
-../src/F_Punteros.c:20:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
-                           ~^
-                           %ld
-../src/F_Punteros.c:21:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%d", sizeof(o));
-                           ~^
-                           %ld
-../src/F_Punteros.c:22:28: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%f", sizeof(f));
-                           ~^
-                           %ld
-../src/F_Punteros.c:23:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
-src/subdir.mk:18: recipe for target 'src/F_Punteros.o' failed
-  printf("La direccion de a es %d", &a));
-                               ~^   ~~
-                               %ls
-../src/F_Punteros.c:23:39: error: expected ‘;’ before ‘)’ token
-  printf("La direccion de a es %d", &a));
-                                       ^
-../src/F_Punteros.c:23:39: error: expected statement before ‘)’ token
-../src/F_Punteros.c:17:6: warning: unused variable ‘c’ [-Wunused-variable]
-  int c;
-      ^
-../src/F_Punteros.c:16:6: warning: unused variable ‘b’ [-Wunused-variable]
-  int b;
-      ^
-make: *** [src/F_Punteros.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-17:31:55 **** Incremental Build of configuration Debug for project F_Punteros ****
-make all 
-Building file: ../src/F_Punteros.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_Punteros.d" -MT"src/F_Punteros.o" -o "src/F_Punteros.o" "../src/F_Punteros.c"
-../src/F_Punteros.c: In function ‘main’:
-../src/F_Punteros.c:20:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
-                           ~^
-                           %ld
-../src/F_Punteros.c:21:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%d", sizeof(o));
-                           ~^
-                           %ld
-../src/F_Punteros.c:22:28: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%f", sizeof(f));
-                           ~^
-                           %ld
-../src/F_Punteros.c:23:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
-  printf("La direccion de a es %d", &a);
-                               ~^   ~~
-                               %ls
-../src/F_Punteros.c:17:6: warning: unused variable ‘c’ [-Wunused-variable]
-  int c;
-      ^
-../src/F_Punteros.c:16:6: warning: unused variable ‘b’ [-Wunused-variable]
-  int b;
-      ^
-Finished building: ../src/F_Punteros.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/A_Ejercicio2Classroom.d" -MT"src/A_Ejercicio2Classroom.o" -o "src/A_Ejercicio2Classroom.o" "../src/A_Ejercicio2Classroom.c"
+Finished building: ../src/A_Ejercicio2Classroom.c
  
-Building target: F_Punteros
+Building target: A_Ejercicio2Classroom
 Invoking: GCC C Linker
-gcc  -o "F_Punteros"  ./src/F_Punteros.o   
-Finished building target: F_Punteros
+gcc  -o "A_Ejercicio2Classroom"  ./src/A_Ejercicio2Classroom.o   
+Finished building target: A_Ejercicio2Classroom
  
-17:32:13 **** Incremental Build of configuration Debug for project F_Punteros ****
+23:50:20 **** Build of configuration Debug for project A_Ejercicio3Classroom ****
 make all 
-Building file: ../src/F_Punteros.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_Punteros.d" -MT"src/F_Punteros.o" -o "src/F_Punteros.o" "../src/F_Punteros.c"
-../src/F_Punteros.c: In function ‘main’:
-../src/F_Punteros.c:20:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
-                           ~^
-                           %ld
-../src/F_Punteros.c:21:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%d", sizeof(o));
-                           ~^
-                           %ld
-../src/F_Punteros.c:22:28: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%f", sizeof(f));
-                           ~^
-                           %ld
-../src/F_Punteros.c:23:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
-  printf("La direccion de a es %d", &a);
-                               ~^   ~~
-                               %ls
-../src/F_Punteros.c:24:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
-  printf("La direccion de a es %d", &b);
-                               ~^   ~~
-                               %ls
-../src/F_Punteros.c:17:6: warning: unused variable ‘c’ [-Wunused-variable]
-  int c;
-      ^
-Finished building: ../src/F_Punteros.c
- 
-Building target: F_Punteros
-Invoking: GCC C Linker
-gcc  -o "F_Punteros"  ./src/F_Punteros.o   
-Finished building target: F_Punteros
- 
-17:46:58 **** Incremental Build of configuration Debug for project F_Punteros ****
+make: No se hace nada para 'all'.
+23:50:20 **** Build of configuration Debug for project A_Ejercicio4Classroom ****
 make all 
-Building file: ../src/F_Punteros.c
+make: No se hace nada para 'all'.
+23:50:21 **** Build of configuration Debug for project A_Ejercicio5Classroom_Clase2 ****
+make all 
+make: No se hace nada para 'all'.
+23:50:21 **** Incremental Build of configuration Debug for project A_Ejercicio6ClassroomPiFunciones ****
+make all 
+make: No se hace nada para 'all'.
+23:50:21 **** Build of configuration Debug for project B_Variable_define_modificadores ****
+make all 
+Building file: ../src/B_Variable_define_modificadores.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/F_Punteros.d" -MT"src/F_Punteros.o" -o "src/F_Punteros.o" "../src/F_Punteros.c"
-../src/F_Punteros.c: In function ‘main’:
-../src/F_Punteros.c:20:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%d", sizeof(a));//cantidad de bytes que ocupa una variable
-                           ~^
-                           %ld
-../src/F_Punteros.c:21:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%d", sizeof(o));
-                           ~^
-                           %ld
-../src/F_Punteros.c:22:28: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-  printf("El size de A es :%f", sizeof(f));
-                           ~^
-                           %ld
-../src/F_Punteros.c:17:6: warning: unused variable ‘c’ [-Wunused-variable]
-  int c;
-      ^
-Finished building: ../src/F_Punteros.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/B_Variable_define_modificadores.d" -MT"src/B_Variable_define_modificadores.o" -o "src/B_Variable_define_modificadores.o" "../src/B_Variable_define_modificadores.c"
+Finished building: ../src/B_Variable_define_modificadores.c
  
-Building target: F_Punteros
+Building target: B_Variable_define_modificadores
 Invoking: GCC C Linker
-gcc  -o "F_Punteros"  ./src/F_Punteros.o   
-Finished building target: F_Punteros
+gcc  -o "B_Variable_define_modificadores"  ./src/B_Variable_define_modificadores.o   
+Finished building target: B_Variable_define_modificadores
  
+23:50:22 **** Build of configuration Debug for project C_Entrada_de_datos ****
+make all 
+make: No se hace nada para 'all'.
+23:50:22 **** Build of configuration Debug for project D_EjercicioMeet1 ****
+make all 
+make: No se hace nada para 'all'.
+23:50:23 **** Build of configuration Debug for project E_EjercicioMeet2_Promedio ****
+make all 
+make: No se hace nada para 'all'.
+23:50:23 **** Clean-only build of configuration Debug for project E_EjercicioMeet3_MaxMin ****
+make clean 
+rm -rf  ./src/E_EjercicioMeet3_MaxMin.o  ./src/E_EjercicioMeet3_MaxMin.d  E_EjercicioMeet3_MaxMin
+ 
+23:50:24 **** Build of configuration Debug for project E_EjercicioMeet3_MaxMin ****
+make all 
+Building file: ../src/E_EjercicioMeet3_MaxMin.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/E_EjercicioMeet3_MaxMin.d" -MT"src/E_EjercicioMeet3_MaxMin.o" -o "src/E_EjercicioMeet3_MaxMin.o" "../src/E_EjercicioMeet3_MaxMin.c"
+Finished building: ../src/E_EjercicioMeet3_MaxMin.c
+ 
+Building target: E_EjercicioMeet3_MaxMin
+Invoking: GCC C Linker
+gcc  -o "E_EjercicioMeet3_MaxMin"  ./src/E_EjercicioMeet3_MaxMin.o   
+Finished building target: E_EjercicioMeet3_MaxMin
+ 
+23:50:24 **** Build of configuration Debug for project E_EjercicioMeet4NumHastaQueElUserQuiera ****
+make all 
+make: No se hace nada para 'all'.
+23:50:25 **** Incremental Build of configuration Debug for project E_EjercicioMeet5FuncionSumar ****
+make all 
+make: No se hace nada para 'all'.
+23:50:25 **** Build of configuration Debug for project E_EjercicioMeet5FuncionesOperaciones ****
+make all 
+make: No se hace nada para 'all'.
+23:50:25 **** Incremental Build of configuration Debug for project F_FuncionDividir ****
+make all 
+make: No se hace nada para 'all'.
+23:50:26 **** Incremental Build of configuration Debug for project F_Punteros ****
+make all 
+make: No se hace nada para 'all'.
+23:50:26 **** Incremental Build of configuration Debug for project F_Usar_PunteroParaFuncDividir ****
+make all 
+make: No se hace nada para 'all'.
+23:50:26 **** Incremental Build of configuration Debug for project F_funcionParaObtenerUnNumero ****
+make all 
+make: No se hace nada para 'all'.

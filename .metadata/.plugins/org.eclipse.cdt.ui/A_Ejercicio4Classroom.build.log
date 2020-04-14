@@ -1,15 +1,6 @@
-03:49:50 **** Incremental Build of configuration Debug for project A_Ejercicio4Classroom ****
+23:50:20 **** Build of configuration Debug for project A_Ejercicio4Classroom ****
 make all 
-Building file: ../src/A_Ejercicio4Classroom.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/A_Ejercicio4Classroom.d" -MT"src/A_Ejercicio4Classroom.o" -o "src/A_Ejercicio4Classroom.o" "../src/A_Ejercicio4Classroom.c"
-Finished building: ../src/A_Ejercicio4Classroom.c
- 
-Building target: A_Ejercicio4Classroom
-Invoking: GCC C Linker
-gcc  -o "A_Ejercicio4Classroom"  ./src/A_Ejercicio4Classroom.o   
-Finished building target: A_Ejercicio4Classroom
- 
+make: No se hace nada para 'all'.
 
-03:49:50 Build Finished. 0 errors, 0 warnings. (took 459ms)
+23:50:20 Build Finished. 0 errors, 0 warnings. (took 218ms)
 
